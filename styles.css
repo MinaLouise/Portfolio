@@ -1,0 +1,176 @@
+*{}.headOne {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    text-align: center;
+    position: absolute;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: pink;
+}
+
+.innerheader{
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.logocontainer{
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logocontainer h1{
+    color: palevioletred;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Montserrat';
+    font-size: 32;
+    font-weight: 200;
+}
+
+.logocontainer h1 span{
+    font-weight: 800;
+}
+
+.navigation a ::before{
+    float: right;
+}
+
+.professionalphoto{
+    padding: 0% 40%;
+    border-color: lightblue;
+}  
+
+.photosize{
+    width: 500px;
+    position: relative;
+    border-radius: 10%;
+}
+
+.photoborder{
+    border: 7px solid palevioletred;
+    border-radius: 10%;
+    padding: 20px;
+    background-color: antiquewhite;
+}
+
+.aboutme h2{
+    text-align: center;
+    padding-top: 20%;
+    font-family: 'Montserrat';
+    color: lightpink;
+    font-size: 70px;
+    position: relative;
+}
+
+.aboutme p{
+    color: lightpink;
+    font-size: 20pt;
+    text-align: center;
+}
+
+.myskills h2{
+    text-align: center;
+    padding-top: 20%;
+    font-family: 'Montserrat';
+    color: lightpink;
+    font-size: 70px;
+}
+
+.whatIknow{
+    padding-left: 40%;
+    padding-right: 40%;
+}
+
+.whatIknow i{
+    font-size: 300%;
+    padding-top: 20%;
+}
+
+.myprojects h2{
+    padding-left: 40%;
+    padding-right: 40%;
+    padding-top: 20%;
+    font-family: 'Montserrat';
+    color: lightpink;
+    font-size: 70px;
+    position: relative;
+}
+
+.myprojects p{
+    color: lightpink;
+    font-size: 20pt;
+    text-align: center;
+}
+
+.proJect {
+    border: 3px inset violet;
+}
+
+.myprojects a {
+    color: rgb(255, 91, 154);
+    font-size: 200%;
+}
+
+ .myprojects a :hover{
+    color: pink;
+    font-size: 200%;
+ }
+
+.socialscontainer{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.footer ul{
+    list-style: none;
+}
+ .footer{
+    background-color: pink;
+    padding: 70px 0;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+ }
+
+ .col{
+    width: 25%;
+    padding: 0 15px;
+ }
+
+ .col h4 {
+    font-size: 18px;
+    color: aliceblue;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+ }
+
+ .col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: aliceblue;
+    height: 2px;
+    box-sizing: border-box;
+ }
+ 
+.rows{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navigation a :hover{
+    color:blue
+}
