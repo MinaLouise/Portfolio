@@ -11,7 +11,7 @@ body{
 }
 
 .header{
-    width: 100%;
+    width: auto;
     height: 80px;
     display: block;
     background-color: pink;
@@ -27,7 +27,6 @@ body{
 .logocontainer{
     height: 100%;
     display: table;
-    float: left;
 }
 
 .logocontainer h1{
@@ -48,27 +47,9 @@ body{
     float: right;
 }
 
-.professionalphoto{
-    padding: 0% 40%;
-    border-color: lightblue;
-}  
-
-.photosize{
-    width: 500px;
-    position: relative;
-    border-radius: 10%;
-}
-
-.photoborder{
-    border: 7px solid palevioletred;
-    border-radius: 10%;
-    padding: 20px;
-    background-color: antiquewhite;
-}
-
 .aboutme h2{
     text-align: center;
-    padding-top: 20%;
+    padding-top: 10%;
     font-family: 'Montserrat';
     color: lightpink;
     font-size: 70px;
@@ -90,18 +71,16 @@ body{
 }
 
 .whatIknow{
-    padding-left: 40%;
-    padding-right: 40%;
+    text-align: center;
 }
 
 .whatIknow i{
     font-size: 300%;
-    padding-top: 20%;
+    padding-top: 10%;
 }
 
 .myprojects h2{
-    padding-left: 40%;
-    padding-right: 40%;
+    text-align: center;
     padding-top: 20%;
     font-family: 'Montserrat';
     color: lightpink;
@@ -171,6 +150,10 @@ body{
     flex-wrap: wrap;
 }
 
+.navigation a {
+    color: palevioletred
+}
+
 .navigation a :hover{
-    color:blue
+    color:rgb(255, 0, 123)
 }
