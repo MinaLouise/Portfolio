@@ -6,7 +6,7 @@
     position: absolute;
 }
 
-body{
+.shell{
     background-color: antiquewhite;
 }
 
@@ -18,8 +18,8 @@ body{
 }
 
 .innerheader{
-    width: 1000px;
-    height: 100%;
+    width: max-content;
+    height: max-content;
     display: block;
     margin: 0 auto;
 }
@@ -34,7 +34,7 @@ body{
     height: 100%;
     display: table-cell;
     vertical-align: middle;
-    font-family: 'Montserrat';
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 32;
     font-weight: 200;
 }
@@ -105,7 +105,7 @@ body{
 
  .myprojects a :hover{
     color: pink;
-    font-size: 200%;
+    font-size: 105%;
  }
 
 .socialscontainer{
