@@ -7,16 +7,16 @@
 }
 
 .shell{
-    background-color: antiquewhite;
+    background-color: #FFECEC;
 }
 
-.header{
-    background-color: pink;
+.heading{
+    background-color: #FF78C4;
     padding: 70px 0;
     font-family: 'Poppins', sans-serif;
     line-height: 1.5;
  }
-}
+
 
 .innerheader{
     width: max-content, min-content;
@@ -31,7 +31,7 @@
 }
 
 .logocontainer h1{
-    color: palevioletred;
+    color: #FFBDF7;
     height: 100%;
     display: table-cell;
     vertical-align: middle;
@@ -52,13 +52,13 @@
     text-align: center;
     padding-top: 10%;
     font-family: 'Montserrat';
-    color: lightpink;
+    color: #FF78C4;
     font-size: 70px;
     position: relative;
 }
 
 .aboutme p{
-    color: lightpink;
+    color: #FF78C4;
     font-size: 20pt;
     text-align: center;
 }
@@ -67,7 +67,7 @@
     text-align: center;
     padding-top: 20%;
     font-family: 'Montserrat';
-    color: lightpink;
+    color: #FF78C4;
     font-size: 70px;
 }
 
@@ -84,15 +84,21 @@
     text-align: center;
     padding-top: 20%;
     font-family: 'Montserrat';
-    color: lightpink;
+    color: #FF78C4;
     font-size: 70px;
     position: relative;
 }
 
 .myprojects p{
-    color: lightpink;
+    color: #FF78C4;
     font-size: 20pt;
     text-align: center;
+}
+
+timeline{
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .proJect {
@@ -100,12 +106,12 @@
 }
 
 .myprojects a {
-    color: rgb(255, 91, 154);
+    color: #FF78C4;
     font-size: 200%;
 }
 
  .myprojects a :hover{
-    color: pink;
+    color: #FFBDF7;
     font-size: 105%;
  }
 
@@ -118,7 +124,7 @@
     list-style: none;
 }
  .footer{
-    background-color: pink;
+    background-color: #FF78C4;
     padding: 70px 0;
     font-family: 'Poppins', sans-serif;
     line-height: 1.5;
@@ -131,7 +137,7 @@
 
  .col h4 {
     font-size: 18px;
-    color: aliceblue;
+    color: #FFBDF7;
     text-transform: capitalize;
     margin-bottom: 30px;
  }
@@ -141,7 +147,7 @@
     position: absolute;
     left: 0;
     bottom: -10px;
-    background-color: aliceblue;
+    background-color: #FFBDF7;
     height: 2px;
     box-sizing: border-box;
  }
@@ -152,9 +158,9 @@
 }
 
 .navigation a {
-    color: palevioletred
+    color: #FFBDF7;
 }
 
 .navigation a :hover{
-    color:rgb(255, 0, 123)
+    color:#E1AEFF;
 }
