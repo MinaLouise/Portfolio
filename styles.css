@@ -11,15 +11,16 @@
 }
 
 .header{
-    width: auto;
-    height: 80px;
-    display: block;
     background-color: pink;
+    padding: 70px 0;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+ }
 }
 
 .innerheader{
-    width: max-content;
-    height: max-content;
+    width: max-content, min-content;
+    height: max-content, min-content;
     display: block;
     margin: 0 auto;
 }
