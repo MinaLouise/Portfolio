@@ -5,16 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/54df4c0a6e.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
     <title>Mina's Portfolio</title>
 </head>
 <body class="shell">
-    <header class="heading">
-        <div class="innerheader">
+
+    <div class="head-position">
+       <header class="heading">
             <div class="logocontainer">
-                <h1><span>M</span>ina <span>S</span>anford</h1>
+                <h1 class="name"><span>M</span>ina <span>S</span>anford</h1>
             </div>
-        </header>
+            <div class="navigation">
+                <ul class="navhor">
+                    <a class="about" href="#About"><li>About</li></a>
+                    <a class="skills" href="#Skills"><li>Skills</li></a>
+                    <a class="projects" href="#Projects"><li>Projects</li></a>
+                </ul>
+            </div>
+        </header> 
     </div>
+    
     <div class="aboutme" id="About">
         <h2>About me</h2>
         <p>Hello, I am Mina Sanford. I am from Batesville, MS.
@@ -35,21 +45,21 @@ All of my skills bellow where acquired while attending BaseCamp Coding Academy.
         <h2>Projects</h2>
         <p>These are the projects I did during my time at BaseCamp.</p>
         <div class="timeline">
-            <a class="proJect" href="https://minalouise.github.io/GOAT-project/"><li>GOAT PROJECT</li></a>
-            <a class="proJect" href="https://minalouise.github.io/Fictional_Charity/"><li>CHARITY PROJECT</li></a>
+            <div class="container left">
+                <div class="projectcontent">
+                    <a class="proJect" href="https://minalouise.github.io/GOAT-project/"><li>GOAT PROJECT</li></a>
+                </div>
+            </div>
+            <div class="container right">
+                <div class="projectcontent">
+                    <a class="proJect" href="https://minalouise.github.io/Fictional_Charity/"><li>CHARITY PROJECT</li></a>
+                </div>
+            </div>       
         </div>
     </div>
     <footer class="footer">
         <div class="socialscontainer">
                 <div class="rows">
-                    <div class="col">
-                        <h4>Navigation</h4>
-                        <ul class="navigation">
-                            <a href="#About"><li>About</li></a>
-                            <a href="#Skills"><li>Skills</li></a>
-                            <a href="#Projects"><li>Projects</li></a>
-                        </ul>
-                    </div>
                     <div class="col">
                         <h4>Socials</h4>
                         <ul class="navigation">
