@@ -192,7 +192,7 @@
         content: '';
         position: absolute;
         width: 6px;
-        background-color: white;
+        background-color: #ff78c5;
         top: 0;
         bottom: 0;
         left: 50%;
@@ -214,8 +214,8 @@
         width: 25px;
         height: 25px;
         right: -17px;
-        background-color: white;
-        border: 3px inset violet;
+        background-color: #ff78c5;
+        border: 3px inset #FFBDF7;
         top: 15px;
         border-radius: 50%;
         z-index: 1;
@@ -303,4 +303,18 @@
         .right {
         left: 0%;
         }
+      }
+
+      /* pop-up card??*/
+      .preview-container{
+        box-shadow: 0 4px 8px 0 rgba(185, 48, 48, 0.056);
+        transition: 0.1s;
+        width: fit-content;
+        height: fit-content;
+        padding: 2px 16px;
+      }
+
+      .preview-container img{
+        width: 50%;
+        height: 50%;
       }
