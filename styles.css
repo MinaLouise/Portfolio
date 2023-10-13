@@ -27,6 +27,7 @@
         height: max-content;
     }
 
+
     .logocontainer{
         display: table;
         font-family: 'Poppins', sans-serif;
@@ -152,6 +153,21 @@
         font-family: 'Poppins', sans-serif;
         line-height: 1.5;
     }
+
+    #scrollToTop {
+        display: block;
+        text-align: center;
+        padding: 10px;
+        background-color: #FF78C4;
+        color: #FFBDF7;
+        text-decoration: none;
+        border-radius: 4px;
+        transition: background-color 0.3s;
+      }
+      
+      #scrollToTop:hover {
+        background-color: #fd5eb8;
+      }
 
     .col{
         width: 25%;

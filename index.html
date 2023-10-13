@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link id="stylesheet" rel="stylesheet" type="text/css" href="light-theme.css">
     <title>Mina's Portfolio</title>
 </head>
 <body class="shell">
-
+    
     <div class="head-position">
        <header class="heading">
             <div class="logocontainer">
                 <h1 class="name"><span>M</span>ina <span>S</span>anford</h1>
             </div>
+            
             <div class="navigation">
                 <ul class="navhor">
                     <a class="about" href="#About"><li>About</li></a>
@@ -44,22 +46,24 @@ All of my skills bellow where acquired while attending BaseCamp Coding Academy.
         <h2>Projects</h2>
         <p>These are the projects I did during my time at BaseCamp.</p>
         <div class="timeline">
-            <div class="container left">
-                <div class="projectcontent">
-                    <a class="preview-link" href="https://minalouise.github.io/GOAT-project/"><li>GOAT PROJECT</li></a>
-                    <script src="main.js" defer class="preview"></script>
-                    <div class="preview-container"></div>
+            <div class="timeline-item">
+                <div class="container left">
+                    <div class="projectcontent">
+                        <a class="preview-link" href="https://minalouise.github.io/GOAT-project/"><li>GOAT PROJECT</li></a>
+                        <div class="preview-container"></div>
+                    </div>
                 </div>
+                <div class="container right">
+                    <div class="projectcontent">
+                        <a class="proJect" href="https://minalouise.github.io/Fictional_Charity/"><li>CHARITY PROJECT</li></a>
+                    </div>
+                </div>  
             </div>
-            <div class="container right">
-                <div class="projectcontent">
-                    <a class="proJect" href="https://minalouise.github.io/Fictional_Charity/"><li>CHARITY PROJECT</li></a>
-                </div>
-            </div>       
         </div>
     </div>
     <footer class="footer">
         <div class="socialscontainer">
+            <a id="scrollToTop" href="#" onclick="scrollToTop(); return false;">To the Top</a>
                 <div class="rows">
                     <div class="col">
                         <h4>Socials</h4>
@@ -70,6 +74,6 @@ All of my skills bellow where acquired while attending BaseCamp Coding Academy.
                 </div>
         </div>
     </footer>
-    
+    <script src="main.js" defer class="preview"></script>
 </body>
 </html>
