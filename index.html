@@ -17,63 +17,79 @@
             
             <div class="navigation">
                 <ul class="navhor">
-                    <a class="about" href="#About"><li>About</li></a>
-                    <a class="skills" href="#Skills"><li>Skills</li></a>
+                    <a class="about" onclick="displayAbout()" href="#About"><li>About</li></a>
+                    <a class="skills" onclick="displaySkills()" href="#Skills"><li>Skills</li></a>
                     <a class="projects" href="#Projects"><li>Projects</li></a>
                 </ul>
             </div>
         </header> 
     </div>
     
-    <div class="aboutme" id="About">
-        <h2>About me</h2>
-        <p>Hello, I am Mina Sanford. I am from Batesville, MS.
-All of my skills bellow where acquired while attending BaseCamp Coding Academy.
-(pending)</p>
-    </div>
-    <div class="myskills" id="Skills">
-        <h2>MY Skills</h2>
-        <div class="whatIknow">
-            <i class="fa-brands fa-python">Python</i>
-            <br>
-            <i class="fa-brands fa-html5">HTML</i>
-            <br>
-            <i class="fa-brands fa-css3-alt">CSS</i>
+    <div class="pagecontent" id="pagecontent">
+        <div class="intro">
+            <h1 id="introduction">HELLO, I AM MINA AND THIS IS <span><a onclick="setTimeout(displayAbout(), 200)" href="#About">ABOUT</a></span> ME.</h1>
         </div>
-        <script src="https://kit.fontawesome.com/54df4c0a6e.js" crossorigin="anonymous"></script>
-    </div>
-    <div class="myprojects" id="Projects">
-        <h2>Projects</h2>
-        <p>These are the projects I did during my time at BaseCamp.</p>
-        <div class="timeline">
-            <div class="timeline-item">
-                <div class="container left">
-                    <div class="projectcontent">
-                        <a class="preview-link" href="https://minalouise.github.io/GOAT-project/"><li>GOAT PROJECT</li></a>
-                        <div class="preview-container"></div>
-                    </div>
-                </div>
-                <div class="container right">
-                    <div class="projectcontent">
-                        <a class="proJect" href="https://minalouise.github.io/Fictional_Charity/"><li>CHARITY PROJECT</li></a>
-                    </div>
-                </div>  
+
+        <div class="aboutcontent" id="aboutcontent">
+            <div class="aboutme" id="About">
+                <h2>About me</h2>
+                <p class="abouttext" id="abouttext">I am a young programer eager to learn. I graduated from South Panola High School and continued to study at Base Camp Coding Academy. I was in band and played soccer during my high school career. Although I didn't know much about programming, I wanted to learn. I have learned seven programming languages and have worked on my professional <span><a onclick="displaySkills()" href="#Skills">skills</a></span> quite a bit.</p>
             </div>
         </div>
-    </div>
-    <footer class="footer">
-        <div class="socialscontainer">
-            <a id="scrollToTop" href="#" onclick="scrollToTop(); return false;">To the Top</a>
-                <div class="rows">
-                    <div class="col">
-                        <h4>Socials</h4>
-                        <ul class="navigation">
-                            <a href="#"><li>Facebook</li></a>
-                        </ul>
+
+        <div class="skillcontent" id="skillcontent">
+            <div class="myskills" id="Skills">
+                <h2>MY Skills</h2>
+                <div class="whatIknow">
+                    <i class="fa-brands fa-python icon"></i>
+                    <i class="fa-brands fa-html5 icon"></i>
+                    <i class="fa-brands fa-css3-alt  icon"></i>
+                    <i class="fa-brands fa-js icon"></i>
+                    <i class="fa-brands fa-bootstrap icon"></i>
+                    <i class="fa-solid fa-database icon"></i>
+                    <i class="fa-brands fa-java icon"></i>
+                </div>
+                <script src="https://kit.fontawesome.com/54df4c0a6e.js" crossorigin="anonymous"></script>
+            </div>
+        </div>
+
+        <div class="projectcontent" id="projectcontent">
+            <div class="myprojects" id="Projects">
+                <h2>Projects</h2>
+                <p>These are the projects I did during my time at BaseCamp.</p>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="container left">
+                            <div class="projectcontent">
+                                <a class="preview-link" href="https://minalouise.github.io/GOAT-project/"><li>GOAT PROJECT</li></a>
+                                <div class="preview-container"></div>
+                            </div>
+                        </div>
+                        <div class="container right">
+                            <div class="projectcontent">
+                                <a class="proJect" href="https://minalouise.github.io/Fictional_Charity/"><li>CHARITY PROJECT</li></a>
+                            </div>
+                        </div>  
                     </div>
                 </div>
+            </div>
+        </div>
+            
+    </div>
+        
+    <footer class="footer">
+        <div class="socialscontainer">
+            <a id="scrollToTop" href="#" onclick="scrollToTop(); return false;"></a>
+                <!-- <div class="rows">
+                    <div class="col">
+                        <h4></h4>
+                        <ul class="navigation">
+                            <a href="#"><li></li></a>
+                        </ul>
+                    </div>
+                </div> -->
         </div>
     </footer>
-    <script src="main.js" defer class="preview"></script>
+    <script src="main.js" class="preview" defer></script>
 </body>
 </html>

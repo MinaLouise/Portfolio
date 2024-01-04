@@ -3,9 +3,60 @@
     padding:0;
     box-sizing: border-box;
 }
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+    .pagecontent{
+        flex: 1;
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 0.5s ease, transform 0.5s ease;
+    }
+
+    .pagecontent.visible{
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .aboutcontent{
+        display: block;
+    }
+    .skillcontent{
+        display: block;
+    }
+    .projectcontent{
+        display: block;
+    }
+    .intro{
+        text-align: center;
+        padding: 30px;
+        margin-left: 25px;
+        font-family: 'Montserrat';
+        color: #FF78C4;
+    }
+    .intro a{
+        color: #FF78C4;
+    }
+
+    .intro a:hover{
+        opacity: 20%;
+    }
+
+    .abouttext a{
+        color: #FF78C4;
+    }
+
+    .abouttext a:hover{
+        opacity: 20%;
+    }
 
     .shell{
-        background-color: #FFECEC;
+        background-color: #ffffff;
     }
 
     .name{
@@ -19,10 +70,14 @@
         position:sticky;
         position: -webkit-sticky;
         top: 0;
+        padding-bottom: 10px;
+        border-style: outset;
+        border-color: #f0078b4d;
+        background-color: #ff78c578;
     }
 
     .heading{
-        background-color: #ff78c5;
+        margin-top: 20px;
         padding: 10px 70px;
         height: max-content;
     }
@@ -36,7 +91,7 @@
 
 
     .logocontainer h1{
-        color: #FFBDF7;
+        color: #FF78C4;
         height: 100%;
         display: table-cell;
         vertical-align: middle;
@@ -71,43 +126,59 @@
     }
 
     .navigation a {
-        color: #FFBDF7;
+        color: #ffffff;
     }
 
     .navigation a :hover{
-        color:#E1AEFF;
+        color:#ddcfe6;
+    }
+
+    .aboutme{
+        text-align: center;
+        color: #FF78C4;
+        position: relative;
+        font-family: 'Montserrat', 'Times New Roman', Times, serif, georgia;
+        padding: 50px;
     }
 
     .aboutme h2{
         text-align: center;
-        padding-top: 10%;
-        font-family: 'Montserrat';
-        color: #FF78C4;
         font-size: 70px;
-        position: relative;
     }
 
-    .aboutme p{
-        color: #FF78C4;
+    .abouttext{
         font-size: 20pt;
+    }
+
+    .myskills{
         text-align: center;
+        position: relative;
+        font-family: 'Montserrat', 'Times New Roman', Times, serif, georgia;
+        padding: 0px;
     }
 
     .myskills h2{
         text-align: center;
-        padding-top: 20%;
-        font-family: 'Montserrat';
         color: #FF78C4;
         font-size: 70px;
     }
 
     .whatIknow{
         text-align: center;
+        /* display: flex; */
+        gap: 10px;
+    }
+    .icon{
+        transition: transform 0.5s ease;
+    }
+    .icon:hover{
+        transform: rotateY(180deg);
     }
 
     .whatIknow i{
         font-size: 300%;
-        padding-top: 10%;
+        padding: 9%;
+
     }
 
     .myprojects h2{
@@ -148,18 +219,26 @@
     .footer ul{
         list-style: none;
     }
+/* foot */
     .footer{
-        background-color: #FF78C4;
         font-family: 'Poppins', sans-serif;
         line-height: 1.5;
+        border-style: outset;
+        border-color: #ff78c5;
+        background-color: #ff78c578;
+        padding: 20px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        text-align: center;
     }
 
     #scrollToTop {
         display: block;
         text-align: center;
         padding: 10px;
-        background-color: #FF78C4;
-        color: #FFBDF7;
+        color: #fd5eb8;
         text-decoration: none;
         border-radius: 4px;
         transition: background-color 0.3s;
@@ -167,6 +246,7 @@
       
       #scrollToTop:hover {
         background-color: #fd5eb8;
+        color: #FFBDF7;
       }
 
     .col{
